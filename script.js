@@ -65,3 +65,44 @@
 //     return xInA;
 //   }
 ////////////////////////////////////////////////////////////////////////////////////////////
+
+//8 Kyu - Abbreviate a Two Word Name (Completed 6.26.22)
+// function abbrevName(name){
+//     const firstInitial = name[0];
+//     let secondInitial = undefined;
+//     for(let i = 0; i < name.length; i++) {
+//       let spaceCheck = " ";
+//       if(spaceCheck === name[i]) {
+//         secondInitial = name[i + 1];
+//       }
+//     }
+//     const initials = firstInitial + "." + secondInitial;
+//     return initials.toUpperCase(firstInitial, secondInitial);
+//   }
+// Note: This one was hard because I knew there was a shorter way, but I was stubborn to complete it with the knowledge I had. Ultimately, there's a shorter way, so I would like to revisit this assignment later down the line. One thing I realized I'm still a confused about is where I need to declare a variable. When declaring it inside the if statement, the console would throw a reference error. This was resolved when I declared secondInitial outside of the for loop and the if statement.
+////////////////////////////////////////////////////////////////////////////////////////////
+
+//8 Kyu - Lost Without a Map (Completed 6.26.22)
+// function maps(x){
+//     const xNew = [];
+//     for(let i = 0; i < x.length; i++) {
+//       xNew.push(x[i] * 2);
+//     }
+//     return xNew;
+//   }
+//Note: This could've been an arrow function. Also, many users used the .map() method to solve this.
+////////////////////////////////////////////////////////////////////////////////////////////
+
+//8 Kyu - Beginner Series #2 Clock (Completed 6.26.22)
+// function past(h, m, s){
+//     return (h * 3600000) + (m * 60000) + (s * 1000);
+//   }
+////////////////////////////////////////////////////////////////////////////////////////////
+
+//8 Kyu - Keep Hydrated (Completed 6.26.22)
+// function litres(time) {
+//     return Math.trunc(time * 0.5);
+//   }
+//Note: https://stackoverflow.com/questions/38702724/math-floor-vs-math-trunc-javascript
+//The website points to differences between Math.trunc() and Math.floor(). Math.round() might've worked better for this too.
+////////////////////////////////////////////////////////////////////////////////////////////
