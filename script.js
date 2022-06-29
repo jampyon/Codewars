@@ -106,3 +106,10 @@
 //Note: https://stackoverflow.com/questions/38702724/math-floor-vs-math-trunc-javascript
 //The website points to differences between Math.trunc() and Math.floor(). Math.round() might've worked better for this too.
 ////////////////////////////////////////////////////////////////////////////////////////////
+
+//8 Kyu - Check for Even or Odd (Completed 6.27.22)
+// function even_or_odd(number) {
+//     const check = (number % 2 === 0) ? "Even" : "Odd";
+//     return check;
+//   }
+////////////////////////////////////////////////////////////////////////////////////////////
