@@ -11,3 +11,6 @@
 //   }
 //Notes: This one was a bit rough, personally, because it took me a while to get the math down. I knew that I needed to calculate with the length of the param/arg, but it took me a while. Also, my solution isn't DRY. For the if/else if statement, I should've used something else.
 ////////////////////////////////////////////////////////////////////////////////////////////
+
+//7 Kyu - Highest and Lowest ()
+//Assignment: In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.
